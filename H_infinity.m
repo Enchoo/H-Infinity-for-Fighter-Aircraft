@@ -78,7 +78,7 @@ else
         Q = sdpvar(n, n); % > 0
         L = sdpvar(m, n, 'full'); % L = KQ; K = L * inv(Q)
         
-        % Storage function
+        % Supply rate
         % F_hat = -1/(gamma.^2).* eye(d), gamma > 0
         F_hat = rho.* eye(d); % rho = -1/(gamma.^2) < 0, then gamma = sqrt(-1/rho)
         G_hat = zeros(d, p);
