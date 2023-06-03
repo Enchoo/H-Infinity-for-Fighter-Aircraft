@@ -20,7 +20,7 @@ F = zeros(2);
 evA = eig(A); % 2 unstable eigenvalues
 
 Ts = 0.01; % sample time in seconds
-T = 25; % sample size
+T = 31; % sample size
 
 epsilon_ineq = 10.^(-8); % used for strict inequalities
 epsilon_noise = 0.1; % noise bound
